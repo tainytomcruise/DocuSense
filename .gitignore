@@ -1,0 +1,74 @@
+# Environment variables - NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.venv
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files - large PDFs and vector stores
+data/pdf/
+data/text_files/
+faiss_store/
+data/vector_store/
+*.index
+*.pkl
+*.sqlite3
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dependencies lock files (optional - include uv.lock if you want reproducible builds)
+# Uncomment if you want to exclude lock files:
+# uv.lock
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+notebook/pdf_loader.ipynb
